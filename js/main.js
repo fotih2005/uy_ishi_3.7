@@ -128,6 +128,7 @@ userName[10].textContent = data[10].first_name + ' ' + data[10].last_name
 
 const userEmail = document.querySelectorAll(".user__email")
 userEmail[0].href = data[0].email
+userEmail[1].href = data[1].email
 userEmail[2].href = data[2].email
 userEmail[3].href = data[3].email
 userEmail[4].href = data[4].email
@@ -137,6 +138,18 @@ userEmail[7].href = data[7].email
 userEmail[8].href = data[8].email
 userEmail[9].href = data[9].email
 userEmail[10].href = data[10].email
+
+userEmail[0].textContent = data[0].email
+userEmail[1].textContent = data[1].email
+userEmail[2].textContent = data[2].email
+userEmail[3].textContent = data[3].email
+userEmail[4].textContent = data[4].email
+userEmail[5].textContent = data[5].email
+userEmail[6].textContent = data[6].email
+userEmail[7].textContent = data[7].email
+userEmail[8].textContent = data[8].email
+userEmail[9].textContent = data[9].email
+userEmail[10].textContent = data[10].email
 
 const userGender = document.querySelectorAll(".user__gender")
 userGender[0].textContent = data[0].gender
